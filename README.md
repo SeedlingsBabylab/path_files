@@ -38,3 +38,7 @@ Paths to all video_sparse_code.csv FILES
 
 Paths to all Video_Analysis DIRECTORIES
 
+## to_copy*
+
+Paths of wav files (trying to gather them in the same dir for aclewm using `cp_all.sh` -- put a README in output folder saying why it should not be deleted!!)
+
