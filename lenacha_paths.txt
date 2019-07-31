@@ -1,7 +1,6 @@
 /Volumes/pn-opus/Seedlings/Subject_Files/01/01_06/Home_Visit/Processing/Audio_Files/01_06.lena.cha
 /Volumes/pn-opus/Seedlings/Subject_Files/01/01_07/Home_Visit/Processing/Audio_Files/01_07.lena.cha
 /Volumes/pn-opus/Seedlings/Subject_Files/01/01_08/Home_Visit/Processing/Audio_Files/01_08.lena.cha
-/Volumes/pn-opus/Seedlings/Subject_Files/01/01_08/Home_Visit/Processing/Audio_Files/Re-Process_JS-2016-07-08/01_08.lena.cha
 /Volumes/pn-opus/Seedlings/Subject_Files/01/01_09/Home_Visit/Processing/Audio_Files/01_09.lena.cha
 /Volumes/pn-opus/Seedlings/Subject_Files/01/01_10/Home_Visit/Processing/Audio_Files/01_10.lena.cha
 /Volumes/pn-opus/Seedlings/Subject_Files/01/01_11/Home_Visit/Processing/Audio_Files/01_11.lena.cha
@@ -262,7 +261,6 @@
 /Volumes/pn-opus/Seedlings/Subject_Files/23/23_15/Home_Visit/Processing/Audio_Files/23_15.lena.cha
 /Volumes/pn-opus/Seedlings/Subject_Files/23/23_16/Home_Visit/Processing/Audio_Files/23_16.lena.cha
 /Volumes/pn-opus/Seedlings/Subject_Files/23/23_17/Home_Visit/Processing/Audio_Files/23_17.lena.cha
-/Volumes/pn-opus/Seedlings/Subject_Files/24_dropped/24_06/Home_Visit/Processing/Audio_Files/24_06.lena.cha
 /Volumes/pn-opus/Seedlings/Subject_Files/25/25_06/Home_Visit/Processing/Audio_Files/25_06.lena.cha
 /Volumes/pn-opus/Seedlings/Subject_Files/25/25_07/Home_Visit/Processing/Audio_Files/25_07.lena.cha
 /Volumes/pn-opus/Seedlings/Subject_Files/25/25_08/Home_Visit/Processing/Audio_Files/25_08.lena.cha
