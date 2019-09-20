@@ -14,9 +14,13 @@ function move {
 	echo $name
 	mkdir $output_folder/$name
 	echo "$output_folder/$name"
-	unzip $1 -d $output_folder/$name 
+	unzip -o $1 -d $output_folder/$name 
 }
 
+# Currently not checking if a name change occurred for the file. Also we are simply 
+# skipping the copying of the opf files (and that subject_month combo altoghether) if
+# there is more than one opf file where we expect a single one. We may wish to exit 
+# in the future! 
 while IFS= read -r FILE
 do
 	if [ -f $FILE ]; then
@@ -35,4 +39,9 @@ done < "$input_file"
 
 # We will also copy the usedID file, just in case! 
 
-cp "/Volumes/pn-opus/Seedlings/usedID.txt" $output_folder
+cp "/Volumes/pn-opus/Seedlings/usedID.txt" $output_folder/../
+cd $output_folder/..
+
+git add .
+git commit -m "Date generated: $(date)"
+git push
