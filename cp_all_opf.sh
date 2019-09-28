@@ -28,7 +28,7 @@ do
 	else
 		files=$(find $(dirname $FILE) -maxdepth 1 -name '*.opf')
 		num=$(echo $files | wc -w)
-		if [ num -gt 1 ]; then
+		if [ $num -gt 1 ]; then
 			echo "More than one opf file !!!"
 			echo $files
 		else
