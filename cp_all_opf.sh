@@ -6,13 +6,13 @@
 # It contains a list of all the opf files.)
 
 input_file=$1
-output_folder="/Volumes/pn-opus/Seedlings/Compiled_Data/annotated_opf/annotated_opf"
+output_folder=$2
 
 function move {
 	ls $1
 	name=$(basename -s ".opf" $1)
-	echo $name
-	mkdir $output_folder/$name
+	echo "$name"
+	mkdir "$output_folder/$name
 	echo "$output_folder/$name"
 	unzip -o $1 -d $output_folder/$name 
 }
@@ -26,7 +26,7 @@ do
 	if [ -f $FILE ]; then
 		move $FILE
 	else
-		files=$(find $(dirname $FILE) -maxdepth 1 -name '*.opf')
+		files=$(find "$(dirname "$FILE")" -maxdepth 1 -name '*.opf')
 		num=$(echo $files | wc -w)
 		if [ $num -gt 1 ]; then
 			echo "More than one opf file !!!"
@@ -37,11 +37,5 @@ do
 	fi
 done < "$input_file"
 
-# We will also copy the usedID file, just in case! 
-
-cp "/Volumes/pn-opus/Seedlings/usedID.txt" $output_folder/../
-cd $output_folder/..
-
-git add .
-git commit -m "Date generated: $(date)"
-git push
+# We will also copy the usedID file, just in case!
+cp "/Volumes/pn-opus/Seedlings/usedID.txt" "$output_folder/../"
