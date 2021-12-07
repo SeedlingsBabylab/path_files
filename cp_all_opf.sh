@@ -12,30 +12,31 @@ function move {
 	ls $1
 	name=$(basename -s ".opf" $1)
 	echo "$name"
-	mkdir "$output_folder/$name
+	mkdir "$output_folder/$name"
 	echo "$output_folder/$name"
-	unzip -o $1 -d $output_folder/$name 
+	unzip -o $1 -d "$output_folder/$name"
 }
 
-# Currently not checking if a name change occurred for the file. Also we are simply 
+# Currently not checking if a name change occurred for the file. Also we are simply
 # skipping the copying of the opf files (and that subject_month combo altoghether) if
-# there is more than one opf file where we expect a single one. We may wish to exit 
-# in the future! 
+# there is more than one opf file where we expect a single one. We may wish to exit
+# in the future!
 while IFS= read -r FILE
 do
-	if [ -f $FILE ]; then
-		move $FILE
+	if [ -f "$FILE" ]; then
+		move "$FILE"
 	else
 		files=$(find "$(dirname "$FILE")" -maxdepth 1 -name '*.opf')
-		num=$(echo $files | wc -w)
+		num=$(echo "$files" | wc -w)
 		if [ $num -gt 1 ]; then
 			echo "More than one opf file !!!"
-			echo $files
+			echo "$files"
 		else
-			move $files	
+			move "$files"
 		fi
 	fi
 done < "$input_file"
 
 # We will also copy the usedID file, just in case!
-cp "/Volumes/pn-opus/Seedlings/usedID.txt" "$output_folder/../"
+cp /Volumes/pn-opus/Seedlings/usedID.txt "$output_folder"/../
+
