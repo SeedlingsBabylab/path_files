@@ -178,7 +178,6 @@
 /Volumes/pn-opus/Seedlings/Subject_Files/16/16_15/Home_Visit/Analysis/Video_Analysis/
 /Volumes/pn-opus/Seedlings/Subject_Files/16/16_16/Home_Visit/Analysis/Video_Analysis/
 /Volumes/pn-opus/Seedlings/Subject_Files/16/16_17/Home_Visit/Analysis/Video_Analysis/
-/Volumes/pn-opus/Seedlings/Subject_Files/17/17_06/Home_Visit/Analysis/Video_Analysis/
 /Volumes/pn-opus/Seedlings/Subject_Files/17/17_07/Home_Visit/Analysis/Video_Analysis/
 /Volumes/pn-opus/Seedlings/Subject_Files/17/17_08/Home_Visit/Analysis/Video_Analysis/
 /Volumes/pn-opus/Seedlings/Subject_Files/17/17_09/Home_Visit/Analysis/Video_Analysis/

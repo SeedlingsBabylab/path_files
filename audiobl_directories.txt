@@ -241,7 +241,6 @@
 /Volumes/pn-opus/Seedlings/Subject_Files/22/22_06/Home_Visit/Analysis/Audio_Analysis/
 /Volumes/pn-opus/Seedlings/Subject_Files/22/22_07/Home_Visit/Analysis/Audio_Analysis/
 /Volumes/pn-opus/Seedlings/Subject_Files/22/22_08/Home_Visit/Analysis/Audio_Analysis/
-/Volumes/pn-opus/Seedlings/Subject_Files/22/22_09/Home_Visit/Analysis/Audio_Analysis/
 /Volumes/pn-opus/Seedlings/Subject_Files/22/22_10/Home_Visit/Analysis/Audio_Analysis/
 /Volumes/pn-opus/Seedlings/Subject_Files/22/22_11/Home_Visit/Analysis/Audio_Analysis/
 /Volumes/pn-opus/Seedlings/Subject_Files/22/22_12/Home_Visit/Analysis/Audio_Analysis/
